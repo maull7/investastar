@@ -20,7 +20,7 @@
                 </div>
             </a>
             <h1 class="text-xl font-bold text-gray-900 dark:text-white ">
-                Investalearning <span class="text-indigo-600">Authentication</span>
+                Investastar <span class="text-indigo-600">Authentication</span>
             </h1>
         </div>
 

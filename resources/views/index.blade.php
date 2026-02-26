@@ -79,11 +79,11 @@
                         <i class="fas fa-user-plus group-hover:rotate-12 transition-transform"></i>
                         <span>Daftar</span>
                     </a>
-                    <a href="tel:+6281234567890"
+                    <a href="{{ route('login') }}" aria-label="Login"
                         class="flex items-center gap-2 text-blue-600 hover:text-blue-700 transition-all">
                         <div
                             class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center hover:bg-blue-200 transition-all">
-                            <i class="fas fa-phone-alt"></i>
+                            <i class="fas fa-user-circle"></i>
                         </div>
                     </a>
                 </div>
@@ -122,7 +122,12 @@
                     <i class="fas fa-envelope w-5"></i>
                     <span class="font-medium">Kontak</span>
                 </a>
-                <div class="pt-4 border-t border-gray-200">
+                <div class="pt-4 border-t border-gray-200 space-y-2">
+                    <a href="{{ route('login') }}"
+                        class="flex items-center justify-center gap-2 w-full bg-gradient-to-r from-purple-600 to-blue-600 text-white px-4 py-3 hover:from-blue-700 hover:to-purple-700 rounded-xl transition-all font-semibold shadow-lg">
+                        <i class="fas fa-user-circle"></i>
+                        <span>Login Sekarang</span>
+                    </a>
                     <a href="{{ route('register') }}"
                         class="flex items-center justify-center gap-2 w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-3 hover:from-blue-700 hover:to-purple-700 rounded-xl transition-all font-semibold shadow-lg">
                         <i class="fas fa-user-plus"></i>
